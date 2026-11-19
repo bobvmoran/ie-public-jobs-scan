@@ -1,0 +1,46 @@
+name: Weekly jobs scan
+
+on:
+  schedule:
+    # Mondays 05:15 UTC (05:15 Irish in winter, 06:15 in summer), ahead of the
+    # Claude task at 07:43 Irish. GitHub can start scheduled runs late, hence the gap.
+    - cron: "15 5 * * 1"
+  workflow_dispatch: {}   # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobs-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright and Chromium
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Read job pages
+        run: python scraper/scrape.py
+
+      - name: Save results
+        run: |
+          git config user.name "jobs-scan-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Scan $(date -u +%Y-%m-%d)"
+            git push
+          fi
