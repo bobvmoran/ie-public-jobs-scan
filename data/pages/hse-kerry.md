@@ -1,6 +1,6 @@
 # HSE jobs - Kerry
 URL: https://about.hse.ie/jobs/job-search/?county=Kerry
-Fetched: 2026-11-19T20:09:59+00:00
+Fetched: 2026-11-19T20:34:06+00:00
 Status: ok (HTTP 200), pages read: 2
 
 ## Job-like links

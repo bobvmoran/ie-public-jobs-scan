@@ -1,6 +1,6 @@
 # TUS HR vacancies
 URL: https://tus.ie/hr/vacancies/
-Fetched: 2026-11-19T20:14:01+00:00
+Fetched: 2026-11-19T20:38:24+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

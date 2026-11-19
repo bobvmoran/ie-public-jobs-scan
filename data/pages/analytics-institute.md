@@ -1,6 +1,6 @@
 # Analytics Institute job board
 URL: https://analyticsinstitute.org/resources/job-listing.html
-Fetched: 2026-11-19T20:11:36+00:00
+Fetched: 2026-11-19T20:35:20+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

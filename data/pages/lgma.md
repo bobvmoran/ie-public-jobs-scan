@@ -1,6 +1,6 @@
 # LGMA work with us
 URL: https://www.lgma.ie/en/about-us/work-with-us/
-Fetched: 2026-11-19T20:12:19+00:00
+Fetched: 2026-11-19T20:36:03+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

@@ -1,6 +1,6 @@
 # HSE jobs - Clare
 URL: https://about.hse.ie/jobs/job-search/?county=Clare
-Fetched: 2026-11-19T20:09:41+00:00
+Fetched: 2026-11-19T20:33:48+00:00
 Status: ok (HTTP 200), pages read: 2
 
 ## Job-like links

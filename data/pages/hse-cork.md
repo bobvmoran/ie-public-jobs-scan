@@ -1,6 +1,6 @@
 # HSE jobs - Cork
 URL: https://about.hse.ie/jobs/job-search/?county=Cork
-Fetched: 2026-11-19T20:09:30+00:00
+Fetched: 2026-11-19T20:33:36+00:00
 Status: ok (HTTP 200), pages read: 2
 
 ## Job-like links

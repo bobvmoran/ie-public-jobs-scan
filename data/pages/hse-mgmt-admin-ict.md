@@ -1,6 +1,6 @@
 # HSE jobs - Management/Admin/ICT
 URL: https://about.hse.ie/jobs/job-search/?category=management%2Fadmin%2Fict
-Fetched: 2026-11-19T20:10:21+00:00
+Fetched: 2026-11-19T20:34:27+00:00
 Status: ok (HTTP 200), pages read: 4
 
 ## Job-like links

@@ -1,6 +1,6 @@
 # jobs.ac.uk - Ireland
 URL: https://www.jobs.ac.uk/categories/ireland-jobs/1
-Fetched: 2026-11-19T20:11:48+00:00
+Fetched: 2026-11-19T20:35:31+00:00
 Status: ok (HTTP 200), pages read: 2
 
 ## Job-like links

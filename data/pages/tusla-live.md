@@ -1,6 +1,6 @@
 # Tusla live jobs
 URL: https://tusla-candidate.thehirelab.com/livejobs
-Fetched: 2026-11-19T20:10:35+00:00
+Fetched: 2026-11-19T20:34:41+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

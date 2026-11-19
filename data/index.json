@@ -1,6 +1,6 @@
 {
-  "run_started": "2026-11-19T20:08:22+00:00",
-  "run_finished": "2026-11-19T20:14:12+00:00",
+  "run_started": "2026-11-19T20:32:29+00:00",
+  "run_finished": "2026-11-19T20:38:42+00:00",
   "page_file_pattern": "data/pages/<slug>.md",
   "sources": [
     {
@@ -169,136 +169,48 @@
       "chars": 18767
     },
     {
-      "slug": "irishjobs-assistant-principal",
-      "name": "irishjobs.ie assistant-principal",
-      "url": "https://www.irishjobs.ie/jobs/assistant-principal",
-      "status": "blocked",
-      "http_status": 403,
+      "slug": "jobsireland-data",
+      "name": "jobsireland.ie search: data",
+      "url": "https://jobsireland.ie/search-jobs?what=data",
+      "status": "ok",
+      "http_status": 200,
       "error": null,
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
+      "pages_read": 1,
+      "links_found": 34,
+      "chars": 8719
     },
     {
-      "slug": "irishjobs-principal-officer",
-      "name": "irishjobs.ie principal-officer",
-      "url": "https://www.irishjobs.ie/jobs/principal-officer",
-      "status": "blocked",
-      "http_status": 403,
+      "slug": "jobsireland-ict",
+      "name": "jobsireland.ie search: ict",
+      "url": "https://jobsireland.ie/search-jobs?what=ict",
+      "status": "ok",
+      "http_status": 200,
       "error": null,
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
+      "pages_read": 1,
+      "links_found": 9,
+      "chars": 2548
     },
     {
-      "slug": "irishjobs-head-of-data",
-      "name": "irishjobs.ie head-of-data",
-      "url": "https://www.irishjobs.ie/jobs/head-of-data",
-      "status": "blocked",
-      "http_status": 403,
+      "slug": "jobsireland-digital",
+      "name": "jobsireland.ie search: digital",
+      "url": "https://jobsireland.ie/search-jobs?what=digital",
+      "status": "ok",
+      "http_status": 200,
       "error": null,
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
+      "pages_read": 1,
+      "links_found": 32,
+      "chars": 15599
     },
     {
-      "slug": "irishjobs-head-of-ict",
-      "name": "irishjobs.ie head-of-ict",
-      "url": "https://www.irishjobs.ie/jobs/head-of-ict",
-      "status": "blocked",
-      "http_status": 403,
+      "slug": "jobsireland-analytics",
+      "name": "jobsireland.ie search: analytics",
+      "url": "https://jobsireland.ie/search-jobs?what=analytics",
+      "status": "ok",
+      "http_status": 200,
       "error": null,
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
-    },
-    {
-      "slug": "irishjobs-head-of-digital",
-      "name": "irishjobs.ie head-of-digital",
-      "url": "https://www.irishjobs.ie/jobs/head-of-digital",
-      "status": "blocked",
-      "http_status": 403,
-      "error": null,
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
-    },
-    {
-      "slug": "irishjobs-data-in-limerick",
-      "name": "irishjobs.ie data/in-limerick",
-      "url": "https://www.irishjobs.ie/jobs/data/in-limerick",
-      "status": "blocked",
-      "http_status": 403,
-      "error": null,
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
-    },
-    {
-      "slug": "irishjobs-data-manager-in-cork",
-      "name": "irishjobs.ie data-manager/in-cork",
-      "url": "https://www.irishjobs.ie/jobs/data-manager/in-cork",
-      "status": "blocked",
-      "http_status": 403,
-      "error": null,
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
-    },
-    {
-      "slug": "irishjobs-public-sector",
-      "name": "irishjobs.ie public-sector",
-      "url": "https://www.irishjobs.ie/jobs/public-sector",
-      "status": "blocked",
-      "http_status": 403,
-      "error": null,
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
-    },
-    {
-      "slug": "irishjobs-civil-service",
-      "name": "irishjobs.ie civil-service",
-      "url": "https://www.irishjobs.ie/jobs/civil-service",
-      "status": "blocked",
-      "http_status": 403,
-      "error": null,
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
-    },
-    {
-      "slug": "jobsie-data-analytics",
-      "name": "jobs.ie data-analytics",
-      "url": "https://www.jobs.ie/jobs/data-analytics",
-      "status": "error",
-      "http_status": null,
-      "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jobs.ie/jobs/data-analytics\nCall log:\nnavigating to \"https://www.jobs.ie/jobs/data-analytics\", waiting until \"domcontentloaded\"\n",
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
-    },
-    {
-      "slug": "jobsie-assistant-principal",
-      "name": "jobs.ie assistant-principal",
-      "url": "https://www.jobs.ie/jobs/assistant-principal",
-      "status": "error",
-      "http_status": null,
-      "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jobs.ie/jobs/assistant-principal\nCall log:\nnavigating to \"https://www.jobs.ie/jobs/assistant-principal\", waiting until \"domcontentloaded\"\n",
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
-    },
-    {
-      "slug": "jobsie-public-sector",
-      "name": "jobs.ie public-sector",
-      "url": "https://www.jobs.ie/jobs/public-sector",
-      "status": "error",
-      "http_status": null,
-      "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.jobs.ie/jobs/public-sector\nCall log:\nnavigating to \"https://www.jobs.ie/jobs/public-sector\", waiting until \"domcontentloaded\"\n",
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
+      "pages_read": 1,
+      "links_found": 5,
+      "chars": 3583
     },
     {
       "slug": "analytics-institute",
@@ -345,26 +257,26 @@
       "chars": 11521
     },
     {
-      "slug": "garda-data-tech",
-      "name": "Garda Data & Technology coming soon",
-      "url": "https://www.garda.ie/en/careers/career-opportunities-for-garda-staff/coming-soon-competitions-for-roles-in-the-area-of-data-technology-in-an-garda-siochana.html",
-      "status": "blocked",
-      "http_status": 403,
-      "error": null,
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
-    },
-    {
-      "slug": "staffline-getgot",
-      "name": "Staffline GetGot listings",
-      "url": "https://staffline.getgotjobs.ie/listings",
+      "slug": "staffline-garda",
+      "name": "Staffline - An Garda Siochana client page",
+      "url": "https://stafflinerecruit.com/clients/an-garda-siochana",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "pages_read": 1,
-      "links_found": 0,
-      "chars": 621
+      "links_found": 1,
+      "chars": 2393
+    },
+    {
+      "slug": "staffline-roi",
+      "name": "Staffline jobs - Republic of Ireland",
+      "url": "https://stafflinerecruit.com/jobs?country%5B0%5D=Republic%20of%20Ireland",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
+      "pages_read": 11,
+      "links_found": 27,
+      "chars": 36191
     },
     {
       "slug": "revenue",
@@ -523,13 +435,24 @@
     {
       "slug": "ucc-compsci",
       "name": "UCC Computer Science vacancies",
-      "url": "https://www.ucc.ie/en/compsci/vacancies/overview/",
-      "status": "error",
-      "http_status": 404,
-      "error": "HTTP 404 (page not found or server error)",
-      "pages_read": 0,
-      "links_found": 0,
-      "chars": 0
+      "url": "https://www.ucc.ie/en/compsci/vacancies/",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
+      "pages_read": 1,
+      "links_found": 16,
+      "chars": 16907
+    },
+    {
+      "slug": "ucc-hr",
+      "name": "UCC HR job vacancies",
+      "url": "https://www.ucc.ie/en/hr/vacancies/",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
+      "pages_read": 1,
+      "links_found": 7,
+      "chars": 4779
     }
   ]
 }

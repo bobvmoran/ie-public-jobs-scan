@@ -1,6 +1,6 @@
 # HSE jobs - Limerick
 URL: https://about.hse.ie/jobs/job-search/?county=Limerick
-Fetched: 2026-11-19T20:09:18+00:00
+Fetched: 2026-11-19T20:33:25+00:00
 Status: ok (HTTP 200), pages read: 3
 
 ## Job-like links
