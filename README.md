@@ -10,7 +10,7 @@ A scheduled Claude task reads these files later on Monday and updates the tracke
 
 ## Rules it follows
 
-Read only. It opens public listing pages, can click a "Next" link to page through
+Read only. It opens public listing pages, can click a "Next" link or button to page through
 results, and does nothing else: no sign-in, no forms, no applications. A login wall,
 403 or CAPTCHA is recorded as `blocked` and left alone. It pauses a few seconds
 between pages.

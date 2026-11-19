@@ -88,6 +88,7 @@ def click_next(page, next_number):
     candidates = (
         page.get_by_role("link", name=NEXT_RE),
         page.locator("a").filter(has_text=NEXT_RE),
+        page.get_by_role("button", name=NEXT_RE),   # pagers built from buttons (Staffline)
         page.get_by_role("link", name=str(next_number), exact=True),
     )
     for loc in candidates:
@@ -96,6 +97,8 @@ def click_next(page, next_number):
             if not el.is_visible():
                 continue
             if el.get_attribute("aria-disabled") == "true" or "disabled" in (el.get_attribute("class") or ""):
+                continue
+            if not el.is_enabled():
                 continue
             href = (el.get_attribute("href") or "").strip()
             try:
@@ -195,6 +198,11 @@ def main():
         "sources": results,
     }
     (OUT / "index.json").write_text(json.dumps(index, indent=2), encoding="utf-8")
+    if not only:  # full run: drop saved pages for sources no longer in the list
+        keep = {f"{s['slug']}.md" for s in SOURCES} | {".gitkeep"}
+        for f in PAGES.iterdir():
+            if f.name not in keep:
+                f.unlink()
 
 
 if __name__ == "__main__":

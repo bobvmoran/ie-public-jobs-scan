@@ -44,16 +44,14 @@ SOURCES = [
      "url": "https://tusla-candidate.thehirelab.com/livejobs"},
 
     # --- Aggregators ---
+    # irishjobs.ie and jobs.ie are not read: both refuse automated visitors
+    # (bot protection, HTTP 403 / dropped connection on every run), so the
+    # Monday task covers them with web search instead.
+    # jobsireland.ie is the State's own job board. ?what= is its keyword search.
     *[
-        {"slug": f"irishjobs-{p.strip('/').replace('/', '-')}", "name": f"irishjobs.ie {p}",
-         "url": f"https://www.irishjobs.ie/jobs/{p}"}
-        for p in ("assistant-principal", "principal-officer", "head-of-data", "head-of-ict",
-                  "head-of-digital", "data/in-limerick", "data-manager/in-cork",
-                  "public-sector", "civil-service")
-    ],
-    *[
-        {"slug": f"jobsie-{p}", "name": f"jobs.ie {p}", "url": f"https://www.jobs.ie/jobs/{p}"}
-        for p in ("data-analytics", "assistant-principal", "public-sector")
+        {"slug": f"jobsireland-{w.replace(' ', '-')}", "name": f"jobsireland.ie search: {w}",
+         "url": f"https://jobsireland.ie/search-jobs?what={w.replace(' ', '%20')}"}
+        for w in ("data", "ict", "digital", "analytics")
     ],
     {"slug": "analytics-institute", "name": "Analytics Institute job board",
      "url": "https://analyticsinstitute.org/resources/job-listing.html"},
@@ -67,10 +65,12 @@ SOURCES = [
      "url": "https://www.lgma.ie/en/about-us/work-with-us/"},
 
     # --- Garda / Staffline ---
-    {"slug": "garda-data-tech", "name": "Garda Data & Technology coming soon",
-     "url": "https://www.garda.ie/en/careers/career-opportunities-for-garda-staff/coming-soon-competitions-for-roles-in-the-area-of-data-technology-in-an-garda-siochana.html"},
-    {"slug": "staffline-getgot", "name": "Staffline GetGot listings",
-     "url": "https://staffline.getgotjobs.ie/listings"},
+    # garda.ie's "coming soon" page refuses automated visitors (HTTP 403), so it
+    # is left to web search. Garda staff roles are advertised through Staffline.
+    {"slug": "staffline-garda", "name": "Staffline - An Garda Siochana client page",
+     "url": "https://stafflinerecruit.com/clients/an-garda-siochana"},
+    {"slug": "staffline-roi", "name": "Staffline jobs - Republic of Ireland",
+     "url": "https://stafflinerecruit.com/jobs?country%5B0%5D=Republic%20of%20Ireland", "pages": 12},
 
     # --- State bodies ---
     {"slug": "revenue", "name": "Revenue career opportunities",
@@ -103,6 +103,10 @@ SOURCES = [
     {"slug": "atu-academic", "name": "ATU academic jobs",
      "url": "https://www.atu.ie/connect/jobs/academic-jobs"},
     {"slug": "ucc-compsci", "name": "UCC Computer Science vacancies",
-     "url": "https://www.ucc.ie/en/compsci/vacancies/overview/"},
-    # Add UL, MTU and SETU vacancy pages here once you have their public URLs.
+     "url": "https://www.ucc.ie/en/compsci/vacancies/"},
+    {"slug": "ucc-hr", "name": "UCC HR job vacancies",
+     "url": "https://www.ucc.ie/en/hr/vacancies/"},
+    # UL, MTU and UCC's main list sit behind a CoreHR search form, and SETU and
+    # universityvacancies.com refuse automated visitors; jobs.ac.uk above and the
+    # Monday task's web search cover those.
 ]
