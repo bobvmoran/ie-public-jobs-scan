@@ -31,7 +31,7 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Read job pages
-        run: python scraper/scrape.py
+        run: python scraper/debug_dom.py
 
       - name: Save results
         run: |
