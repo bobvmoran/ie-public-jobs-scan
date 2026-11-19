@@ -1,10 +1,11 @@
 # ComReg careers
 URL: https://www.comreg.ie/about/careers/
-Fetched: 2026-11-19T19:52:40+00:00
+Fetched: 2026-11-19T20:06:06+00:00
 Status: ok (HTTP 307), pages read: 1
 
 ## Job-like links
 - [Advice & Information](https://www.comreg.ie/advice-information/)
+- [ComReg works on a cross-functional project basis, and it’s invigorating to work closely with economists, accountants, and engineers every day.](https://www.comreg.ie/testimonial/legal-manager/)
 - [The culture within ComReg is one of integrity, openness, and accountability. Sharon, Compliance Manager Wholesale Division Read testimonial](https://www.comreg.ie/testimonial/sharon-compliance-manger/)
 - [I have worked on several key projects around the organisation which I am extremely proud of Renu, IT Data Analyst Corporate Services Division Read testimonial](https://www.comreg.ie/testimonial/renu-it-data-analyst/)
 - [Quarterly Key Data Report](https://www.comreg.ie/industry/electronic-communications/data-portal/)

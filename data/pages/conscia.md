@@ -1,6 +1,6 @@
 # Conscia Talent job results
 URL: https://www.consciatalent.com/job-results
-Fetched: 2026-11-19T19:52:28+00:00
+Fetched: 2026-11-19T20:05:54+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links
@@ -55,10 +55,6 @@ Search
 Location
 Profession
 Clear Filters
-Recommended
-Newest
-Salary: High to Low
-Salary: Low to High
 Loading jobs...
 ‹
 ›

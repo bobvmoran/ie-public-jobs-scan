@@ -1,6 +1,6 @@
 # Staffline GetGot listings
 URL: https://staffline.getgotjobs.ie/listings
-Fetched: 2026-11-19T19:51:51+00:00
+Fetched: 2026-11-19T20:05:17+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links
@@ -23,50 +23,6 @@ Current job openings at Staffline
 
 To search for jobs, select a category below:
 
-All Categories
-Accounting & Finance
-Administrative & Secretarial
-Agricultural
-Arts & Tourism
-Beauty & Hair Care
-Building Control / Planning
-Charity & Voluntary
-Community, Social Services and Childcare
-Construction & Architecture
-Consulting / Senior Management
-Creative Arts
-Customer Service
-Economic Development/Business Development
-Education & Training
-Electrical
-Engineering
-Environmental Services / Health & Safety
-Food Technology
-Full-Time Lecturers
-Governance
-Hospitality, Catering & Housekeeping
-Housing
-Human Resources / Training & Development
-Insurance
-IT
-Journalist
-Judicial Appointments
-Learning & Development
-Legal
-Maintenance & Grounds Keeping
-Manufacturing
-Media, Communications, Print and Design
-Medical & Health Care Services
-Part-Time Lecturers
-Pharmaceutical & Science
-Public Sector
-Refuse / Cleansing
-Retail, Wholesale & Purchasing
-Sales & Marketing
-Security, Trades & General
-Sports, Recreation and Leisure
-Transport, Distribution and Warehousing
-Travel & Tourism
 Filter Jobs Reset 
 Go to home page
 

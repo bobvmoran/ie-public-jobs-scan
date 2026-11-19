@@ -1,6 +1,6 @@
 {
-  "run_started": "2026-11-19T19:48:37+00:00",
-  "run_finished": "2026-11-19T19:53:31+00:00",
+  "run_started": "2026-11-19T19:57:59+00:00",
+  "run_finished": "2026-11-19T20:06:58+00:00",
   "page_file_pattern": "data/pages/<slug>.md",
   "sources": [
     {
@@ -12,7 +12,7 @@
       "error": null,
       "pages_read": 1,
       "links_found": 25,
-      "chars": 26159
+      "chars": 16673
     },
     {
       "slug": "publicjobs-board-50",
@@ -23,7 +23,7 @@
       "error": null,
       "pages_read": 1,
       "links_found": 36,
-      "chars": 25620
+      "chars": 16134
     },
     {
       "slug": "publicjobs-board-100",
@@ -34,7 +34,7 @@
       "error": null,
       "pages_read": 1,
       "links_found": 35,
-      "chars": 25589
+      "chars": 16103
     },
     {
       "slug": "publicjobs-board-150",
@@ -45,7 +45,7 @@
       "error": null,
       "pages_read": 1,
       "links_found": 31,
-      "chars": 26004
+      "chars": 16518
     },
     {
       "slug": "publicjobs-board-200",
@@ -56,7 +56,7 @@
       "error": null,
       "pages_read": 1,
       "links_found": 19,
-      "chars": 27330
+      "chars": 17844
     },
     {
       "slug": "publicjobs-board-250",
@@ -67,7 +67,7 @@
       "error": null,
       "pages_read": 1,
       "links_found": 2,
-      "chars": 16064
+      "chars": 6578
     },
     {
       "slug": "publicjobs-news",
@@ -84,34 +84,34 @@
       "slug": "hse-limerick",
       "name": "HSE jobs - Limerick",
       "url": "https://about.hse.ie/jobs/job-search/?county=Limerick",
-      "status": "ok",
+      "status": "error",
       "http_status": 200,
-      "error": null,
+      "error": "TimeoutError: Locator.click: Timeout 45000ms exceeded.\nCall log:\nwaiting for get_by_role(\"link\", name=re.compile(r\"^\\s*(next(\\s+page)?(\\s*[\u203a\u00bb>])?|[\u203a\u00bb])\\s*$\", re.IGNORECASE)).first\n  -   locator resolved to <a aria-disabled=\"false\" aria-label=\"Next Page\" class=\"hse-pagination-listing__link\" href=\"/jobs/job-search/",
       "pages_read": 1,
       "links_found": 5,
-      "chars": 30000
+      "chars": 2904
     },
     {
       "slug": "hse-cork",
       "name": "HSE jobs - Cork",
       "url": "https://about.hse.ie/jobs/job-search/?county=Cork",
-      "status": "ok",
+      "status": "error",
       "http_status": 200,
-      "error": null,
+      "error": "TimeoutError: Locator.click: Timeout 45000ms exceeded.\nCall log:\nwaiting for get_by_role(\"link\", name=re.compile(r\"^\\s*(next(\\s+page)?(\\s*[\u203a\u00bb>])?|[\u203a\u00bb])\\s*$\", re.IGNORECASE)).first\n  -   locator resolved to <a aria-disabled=\"false\" aria-label=\"Next Page\" class=\"hse-pagination-listing__link\" href=\"/jobs/job-search/",
       "pages_read": 1,
       "links_found": 6,
-      "chars": 30000
+      "chars": 2962
     },
     {
       "slug": "hse-clare",
       "name": "HSE jobs - Clare",
       "url": "https://about.hse.ie/jobs/job-search/?county=Clare",
-      "status": "ok",
+      "status": "error",
       "http_status": 200,
-      "error": null,
+      "error": "TimeoutError: Locator.click: Timeout 45000ms exceeded.\nCall log:\nwaiting for get_by_role(\"link\", name=re.compile(r\"^\\s*(next(\\s+page)?(\\s*[\u203a\u00bb>])?|[\u203a\u00bb])\\s*$\", re.IGNORECASE)).first\n  -   locator resolved to <a aria-disabled=\"false\" aria-label=\"Next Page\" class=\"hse-pagination-listing__link\" href=\"/jobs/job-search/",
       "pages_read": 1,
       "links_found": 1,
-      "chars": 30000
+      "chars": 2817
     },
     {
       "slug": "hse-tipperary",
@@ -122,29 +122,29 @@
       "error": null,
       "pages_read": 1,
       "links_found": 3,
-      "chars": 30000
+      "chars": 1941
     },
     {
       "slug": "hse-kerry",
       "name": "HSE jobs - Kerry",
       "url": "https://about.hse.ie/jobs/job-search/?county=Kerry",
-      "status": "ok",
+      "status": "error",
       "http_status": 200,
-      "error": null,
+      "error": "TimeoutError: Locator.click: Timeout 45000ms exceeded.\nCall log:\nwaiting for get_by_role(\"link\", name=re.compile(r\"^\\s*(next(\\s+page)?(\\s*[\u203a\u00bb>])?|[\u203a\u00bb])\\s*$\", re.IGNORECASE)).first\n  -   locator resolved to <a aria-disabled=\"false\" aria-label=\"Next Page\" class=\"hse-pagination-listing__link\" href=\"/jobs/job-search/",
       "pages_read": 1,
       "links_found": 7,
-      "chars": 30000
+      "chars": 3076
     },
     {
       "slug": "hse-mgmt-admin-ict",
       "name": "HSE jobs - Management/Admin/ICT",
       "url": "https://about.hse.ie/jobs/job-search/?category=management%2Fadmin%2Fict",
-      "status": "ok",
+      "status": "error",
       "http_status": 200,
-      "error": null,
+      "error": "TimeoutError: Locator.click: Timeout 45000ms exceeded.\nCall log:\nwaiting for get_by_role(\"link\", name=re.compile(r\"^\\s*(next(\\s+page)?(\\s*[\u203a\u00bb>])?|[\u203a\u00bb])\\s*$\", re.IGNORECASE)).first\n  -   locator resolved to <a aria-disabled=\"false\" aria-label=\"Next Page\" class=\"hse-pagination-listing__link\" href=\"/jobs/job-search/",
       "pages_read": 1,
       "links_found": 7,
-      "chars": 30000
+      "chars": 2893
     },
     {
       "slug": "hse-tech-transformation",
@@ -155,7 +155,7 @@
       "error": null,
       "pages_read": 1,
       "links_found": 3,
-      "chars": 30000
+      "chars": 1717
     },
     {
       "slug": "tusla-live",
@@ -166,7 +166,7 @@
       "error": null,
       "pages_read": 1,
       "links_found": 16,
-      "chars": 30000
+      "chars": 18767
     },
     {
       "slug": "irishjobs-assistant-principal",
@@ -309,7 +309,7 @@
       "error": null,
       "pages_read": 1,
       "links_found": 4,
-      "chars": 1038
+      "chars": 1009
     },
     {
       "slug": "jobs-ac-uk-ireland",
@@ -329,9 +329,9 @@
       "status": "ok",
       "http_status": 200,
       "error": null,
-      "pages_read": 1,
-      "links_found": 0,
-      "chars": 3690
+      "pages_read": 5,
+      "links_found": 26,
+      "chars": 14922
     },
     {
       "slug": "lgma",
@@ -364,7 +364,7 @@
       "error": null,
       "pages_read": 1,
       "links_found": 0,
-      "chars": 1604
+      "chars": 621
     },
     {
       "slug": "revenue",
@@ -391,13 +391,13 @@
     {
       "slug": "central-bank",
       "name": "Central Bank current vacancies",
-      "url": "https://www.centralbank.ie/careers/current-vacancies",
+      "url": "https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=YUYF&sid=BDCXCX&a=1bqO7eBaJhQ%3d",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "pages_read": 1,
-      "links_found": 0,
-      "chars": 633
+      "links_found": 2,
+      "chars": 477
     },
     {
       "slug": "cib",
@@ -430,7 +430,7 @@
       "error": null,
       "pages_read": 1,
       "links_found": 1,
-      "chars": 2560
+      "chars": 2501
     },
     {
       "slug": "comreg",
@@ -440,7 +440,7 @@
       "http_status": 307,
       "error": null,
       "pages_read": 1,
-      "links_found": 4,
+      "links_found": 5,
       "chars": 2271
     },
     {
@@ -524,12 +524,12 @@
       "slug": "ucc-compsci",
       "name": "UCC Computer Science vacancies",
       "url": "https://www.ucc.ie/en/compsci/vacancies/overview/",
-      "status": "ok",
+      "status": "error",
       "http_status": 404,
-      "error": null,
-      "pages_read": 1,
+      "error": "HTTP 404 (page not found or server error)",
+      "pages_read": 0,
       "links_found": 0,
-      "chars": 370
+      "chars": 0
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Commission for Railway Regulation careers
 URL: https://www.crr.ie/about/careers/
-Fetched: 2026-11-19T19:52:21+00:00
+Fetched: 2026-11-19T20:05:48+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

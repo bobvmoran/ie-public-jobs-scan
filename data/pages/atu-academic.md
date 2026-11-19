@@ -1,6 +1,6 @@
 # ATU academic jobs
 URL: https://www.atu.ie/connect/jobs/academic-jobs
-Fetched: 2026-11-19T19:53:26+00:00
+Fetched: 2026-11-19T20:06:53+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

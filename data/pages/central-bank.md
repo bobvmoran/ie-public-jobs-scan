@@ -1,17 +1,21 @@
 # Central Bank current vacancies
-URL: https://www.centralbank.ie/careers/current-vacancies
-Fetched: 2026-11-19T19:52:08+00:00
+URL: https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=YUYF&sid=BDCXCX&a=1bqO7eBaJhQ%3d
+Fetched: 2026-11-19T20:05:34+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links
+- [Candidate Manager](https://www.candidatemanager.net/)
+- [Re-use of Public Sector Information](http://www.centralbank.ie/fns/re-use-of-public-sector-information)
 
 ## Page text
---- page 1: https://www.centralbank.ie/careers/current-vacancies ---
-Proceed with caution!
-You are being redirected to https://www.candidatemanager.net/cm/p... This site is out of our control.
+--- page 1: https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=YUYF&sid=BDCXCX&a=1bqO7eBaJhQ%3d ---
+You are not signed in. Login | Register
+Category
+Location
+Business Unit
+Current Vacancies	Job Type
+Market Integrity Investigator (2026-96)	Permanent
 
-For your safety never enter your password for https://www.centralbank.ie/ on this site https://www.candidatemanager.net.
+This service is delivered and maintained by Candidate Manager on behalf of the Central Bank of Ireland.
 
-Be warned that any time you see this message you may be heading to a non-trusted site. Untrusted sites may contain malware or may imitate the design of other sites in attempt to deceit you to give away credentials, personal or financial information.
-
-Go to homepage Proceed to https://www.candidatemanager.net/cm/p...
+Privacy Statement  |   Disclaimer  |   Re-use of Public Sector Information  |   Accessibility Statement  |   Legislation

@@ -1,6 +1,6 @@
 # ESB careers - data
 URL: https://careers.esb.ie/search/?q=data
-Fetched: 2026-11-19T19:53:06+00:00
+Fetched: 2026-11-19T20:06:33+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links
@@ -55,11 +55,11 @@ Pensions Operations Manager
 Admin Team Member - Supply Chain, Kilteel
 	Full-time	Business Support, Customer Service (Entry)	ESB Networks - Kilteel Pole Fi, KE, IE	11 Nov 2026	
 
-Project Management Office Specialist
-	Full-time	Engineering - Project Management	The Sidings, D, IE	18 Nov 2026	
-
 ESB Deputy Company Secretary - Subsidiary & JV Governance
 	Full-time	Business	Dublin, D, IE	18 Nov 2026	
+
+Project Management Office Specialist
+	Full-time	Engineering - Project Management	The Sidings, D, IE	18 Nov 2026	
 
 Admin Team Member - Business Support - Clonmel
 	Full-time	Business Support, Customer Service (Entry)	ESB Clonmel, Co. Tipperary, TA, IE	18 Nov 2026	

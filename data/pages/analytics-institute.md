@@ -1,6 +1,6 @@
 # Analytics Institute job board
 URL: https://analyticsinstitute.org/resources/job-listing.html
-Fetched: 2026-11-19T19:51:15+00:00
+Fetched: 2026-11-19T20:04:21+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links
@@ -33,8 +33,6 @@ Job Listings
 Displaying 4 results
 
 Sort by:
-Closing soonest
-Newest added
 Admin Manager - Part-Time
 
 The Analytics Institute

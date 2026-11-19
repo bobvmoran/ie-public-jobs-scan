@@ -1,6 +1,6 @@
 # Revenue career opportunities
 URL: https://www.revenue.ie/en/corporate/information-about-revenue/careers/career-opportunities.aspx
-Fetched: 2026-11-19T19:51:57+00:00
+Fetched: 2026-11-19T20:05:23+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

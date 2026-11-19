@@ -1,6 +1,6 @@
 # ESB careers - ICT
 URL: https://careers.esb.ie/search/?q=ICT
-Fetched: 2026-11-19T19:53:12+00:00
+Fetched: 2026-11-19T20:06:39+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links
