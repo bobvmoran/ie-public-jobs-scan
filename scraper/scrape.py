@@ -14,6 +14,7 @@ import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urljoin
 
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
@@ -82,16 +83,29 @@ def page_payload(page):
 
 
 def click_next(page, next_number):
-    """Click the pager's Next link, or failing that the link for the next page number."""
-    for loc in (page.get_by_role("link", name=NEXT_RE),
-                page.get_by_role("link", name=str(next_number), exact=True)):
+    """Go to the next results page: the pager's Next link, or failing that the
+    link for the next page number. Returns False when there is nowhere to go."""
+    candidates = (
+        page.get_by_role("link", name=NEXT_RE),
+        page.locator("a").filter(has_text=NEXT_RE),
+        page.get_by_role("link", name=str(next_number), exact=True),
+    )
+    for loc in candidates:
         for i in range(min(loc.count(), 5)):
             el = loc.nth(i)
             if not el.is_visible():
                 continue
             if el.get_attribute("aria-disabled") == "true" or "disabled" in (el.get_attribute("class") or ""):
                 continue
-            el.click()
+            href = (el.get_attribute("href") or "").strip()
+            try:
+                if href and not href.startswith(("#", "javascript:")):
+                    # an ordinary link: open it directly (a cookie banner can sit over the pager)
+                    page.goto(urljoin(page.url, href), wait_until="domcontentloaded")
+                else:
+                    el.click(timeout=10_000)
+            except Exception:
+                return False  # keep the pages already read
             return True
     return False
 
