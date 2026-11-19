@@ -1,11 +1,7 @@
 # HSE jobs - Kerry
 URL: https://about.hse.ie/jobs/job-search/?county=Kerry
-Fetched: 2026-11-19T20:02:14+00:00
-Status: error (HTTP 200), pages read: 1
-Error: TimeoutError: Locator.click: Timeout 45000ms exceeded.
-Call log:
-waiting for get_by_role("link", name=re.compile(r"^\s*(next(\s+page)?(\s*[›»>])?|[›»])\s*$", re.IGNORECASE)).first
-  -   locator resolved to <a aria-disabled="false" aria-label="Next Page" class="hse-pagination-listing__link" href="/jobs/job-search/
+Fetched: 2026-11-19T20:09:59+00:00
+Status: ok (HTTP 200), pages read: 2
 
 ## Job-like links
 - [Property Manager (Technical Services Officer, NRS15551Chief Assistant)](https://about.hse.ie/jobs/job-search/property-manager-technical-services-officer-nrs15551chief-assistant/)
@@ -128,6 +124,120 @@ Category: Nursing and Midwifery
 County: Westmeath, Wicklow, Offaly, Longford, Laois, Kerry, Dublin South
 
 Date posted: 23 October 2026
+:
+Previous
+Page
+1
+Page
+2
+Next
+HSE Live - we're here to help
+
+Monday to Friday: 8am to 8pm
+Saturday: 9am to 5pm
+Sunday: Closed
+Bank holidays: Closed
+
+Freephone: 1800 700 700
+
+From outside Ireland: 00 353 1 240 8787
+
+HSE Facebook
+
+HSE Instagram
+
+HSE TikTok
+
+HSE YouTube
+
+HSE Linkedin
+
+Complaints and feedback
+
+Emergencies
+
+Cookies settings
+
+Support links
+Privacy statement
+Disclaimer
+Cookie statement
+Accessibility
+
+© Health Service Executive
+
+We use strictly necessary cookies to make our site work. We would also like to set optional cookies (analytical, functional and YouTube) to enhance and improve our service. You can opt-out of these cookies. By clicking “Accept All Cookies” you can agree to the use of all cookies. Cookie Statement and Privacy Statement
+Manage Cookies
+Necessary Cookies Only
+Accept All Cookies
+
+--- page 2: https://about.hse.ie/jobs/job-search/?page=2&county=Kerry ---
+Skip to main content
+HSE Staff
+HSE.ie
+HSE Account
+Jobs
+Our work
+Organisation
+News
+Publications
+Leadership and operations
+HomeJobs
+Jobs
+Search jobs
+By keyword or reference code
+Search jobs
+Category
+Advertisement Type
+Grade
+County
+Contract type
+Health Region
+Reset results
+Showing 11 to 15 of 15 results
+
+In:
+
+Kerry
+Social Care Worker BKK07261RP
+
+Category: Health and Social Care Professionals
+
+County: Kerry
+
+Date posted: 20 October 2026
+:
+Social Care Worker TR201026
+
+Category: Health and Social Care Professionals
+
+County: Kerry
+
+Date posted: 20 October 2026
+:
+Senior Psychologist COD0626B
+
+Category: Health and Social Care Professionals
+
+County: Kerry
+
+Date posted: 20 October 2026
+:
+Nursing and Midwifery Staff Bank, HSE Southwest SBNMSW1 - Amended
+
+Category: Nursing and Midwifery
+
+County: Kerry, Cork
+
+Date posted: 18 September 2026
+:
+Staff Bank Healthcare Assistant, HSE South West STAFFBANK1
+
+Category: Patient and Client Care
+
+County: Kerry, Cork
+
+Date posted: 17 September 2026
 :
 Previous
 Page

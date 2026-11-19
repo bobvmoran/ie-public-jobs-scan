@@ -1,6 +1,6 @@
 # publicjobs job board (from 250)
 URL: https://publicjobs.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-423dd989250d/candidate/jobboard/vacancy/3/adv/?start=250
-Fetched: 2026-11-19T19:58:35+00:00
+Fetched: 2026-11-19T20:08:58+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

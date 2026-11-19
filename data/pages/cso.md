@@ -1,6 +1,6 @@
 # CSO vacancies
 URL: https://www.cso.ie/en/aboutus/careers/ourvacancies/
-Fetched: 2026-11-19T20:05:29+00:00
+Fetched: 2026-11-19T20:12:44+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

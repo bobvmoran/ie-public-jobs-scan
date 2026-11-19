@@ -1,6 +1,6 @@
 # irishjobs.ie data/in-limerick
 URL: https://www.irishjobs.ie/jobs/data/in-limerick
-Fetched: 2026-11-19T20:03:48+00:00
+Fetched: 2026-11-19T20:11:03+00:00
 Status: blocked (HTTP 403), pages read: 0
 
 ## Job-like links

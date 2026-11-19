@@ -1,6 +1,6 @@
 {
-  "run_started": "2026-11-19T19:57:59+00:00",
-  "run_finished": "2026-11-19T20:06:58+00:00",
+  "run_started": "2026-11-19T20:08:22+00:00",
+  "run_finished": "2026-11-19T20:14:12+00:00",
   "page_file_pattern": "data/pages/<slug>.md",
   "sources": [
     {
@@ -84,34 +84,34 @@
       "slug": "hse-limerick",
       "name": "HSE jobs - Limerick",
       "url": "https://about.hse.ie/jobs/job-search/?county=Limerick",
-      "status": "error",
+      "status": "ok",
       "http_status": 200,
-      "error": "TimeoutError: Locator.click: Timeout 45000ms exceeded.\nCall log:\nwaiting for get_by_role(\"link\", name=re.compile(r\"^\\s*(next(\\s+page)?(\\s*[\u203a\u00bb>])?|[\u203a\u00bb])\\s*$\", re.IGNORECASE)).first\n  -   locator resolved to <a aria-disabled=\"false\" aria-label=\"Next Page\" class=\"hse-pagination-listing__link\" href=\"/jobs/job-search/",
-      "pages_read": 1,
-      "links_found": 5,
-      "chars": 2904
+      "error": null,
+      "pages_read": 3,
+      "links_found": 12,
+      "chars": 8171
     },
     {
       "slug": "hse-cork",
       "name": "HSE jobs - Cork",
       "url": "https://about.hse.ie/jobs/job-search/?county=Cork",
-      "status": "error",
+      "status": "ok",
       "http_status": 200,
-      "error": "TimeoutError: Locator.click: Timeout 45000ms exceeded.\nCall log:\nwaiting for get_by_role(\"link\", name=re.compile(r\"^\\s*(next(\\s+page)?(\\s*[\u203a\u00bb>])?|[\u203a\u00bb])\\s*$\", re.IGNORECASE)).first\n  -   locator resolved to <a aria-disabled=\"false\" aria-label=\"Next Page\" class=\"hse-pagination-listing__link\" href=\"/jobs/job-search/",
-      "pages_read": 1,
-      "links_found": 6,
-      "chars": 2962
+      "error": null,
+      "pages_read": 2,
+      "links_found": 9,
+      "chars": 5327
     },
     {
       "slug": "hse-clare",
       "name": "HSE jobs - Clare",
       "url": "https://about.hse.ie/jobs/job-search/?county=Clare",
-      "status": "error",
+      "status": "ok",
       "http_status": 200,
-      "error": "TimeoutError: Locator.click: Timeout 45000ms exceeded.\nCall log:\nwaiting for get_by_role(\"link\", name=re.compile(r\"^\\s*(next(\\s+page)?(\\s*[\u203a\u00bb>])?|[\u203a\u00bb])\\s*$\", re.IGNORECASE)).first\n  -   locator resolved to <a aria-disabled=\"false\" aria-label=\"Next Page\" class=\"hse-pagination-listing__link\" href=\"/jobs/job-search/",
-      "pages_read": 1,
+      "error": null,
+      "pages_read": 2,
       "links_found": 1,
-      "chars": 2817
+      "chars": 4144
     },
     {
       "slug": "hse-tipperary",
@@ -128,23 +128,23 @@
       "slug": "hse-kerry",
       "name": "HSE jobs - Kerry",
       "url": "https://about.hse.ie/jobs/job-search/?county=Kerry",
-      "status": "error",
+      "status": "ok",
       "http_status": 200,
-      "error": "TimeoutError: Locator.click: Timeout 45000ms exceeded.\nCall log:\nwaiting for get_by_role(\"link\", name=re.compile(r\"^\\s*(next(\\s+page)?(\\s*[\u203a\u00bb>])?|[\u203a\u00bb])\\s*$\", re.IGNORECASE)).first\n  -   locator resolved to <a aria-disabled=\"false\" aria-label=\"Next Page\" class=\"hse-pagination-listing__link\" href=\"/jobs/job-search/",
-      "pages_read": 1,
+      "error": null,
+      "pages_read": 2,
       "links_found": 7,
-      "chars": 3076
+      "chars": 4957
     },
     {
       "slug": "hse-mgmt-admin-ict",
       "name": "HSE jobs - Management/Admin/ICT",
       "url": "https://about.hse.ie/jobs/job-search/?category=management%2Fadmin%2Fict",
-      "status": "error",
+      "status": "ok",
       "http_status": 200,
-      "error": "TimeoutError: Locator.click: Timeout 45000ms exceeded.\nCall log:\nwaiting for get_by_role(\"link\", name=re.compile(r\"^\\s*(next(\\s+page)?(\\s*[\u203a\u00bb>])?|[\u203a\u00bb])\\s*$\", re.IGNORECASE)).first\n  -   locator resolved to <a aria-disabled=\"false\" aria-label=\"Next Page\" class=\"hse-pagination-listing__link\" href=\"/jobs/job-search/",
-      "pages_read": 1,
-      "links_found": 7,
-      "chars": 2893
+      "error": null,
+      "pages_read": 4,
+      "links_found": 24,
+      "chars": 11045
     },
     {
       "slug": "hse-tech-transformation",
@@ -318,9 +318,9 @@
       "status": "ok",
       "http_status": 200,
       "error": null,
-      "pages_read": 1,
-      "links_found": 28,
-      "chars": 7281
+      "pages_read": 2,
+      "links_found": 43,
+      "chars": 12795
     },
     {
       "slug": "localgovernmentjobs",

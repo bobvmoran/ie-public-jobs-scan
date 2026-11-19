@@ -1,6 +1,6 @@
 # HSE jobs - Technology & Transformation team
 URL: https://about.hse.ie/jobs/job-search/?team=Technology%20and%20transformation&health_region=
-Fetched: 2026-11-19T20:03:13+00:00
+Fetched: 2026-11-19T20:10:27+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

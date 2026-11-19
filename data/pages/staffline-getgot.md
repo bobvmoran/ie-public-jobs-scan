@@ -1,6 +1,6 @@
 # Staffline GetGot listings
 URL: https://staffline.getgotjobs.ie/listings
-Fetched: 2026-11-19T20:05:17+00:00
+Fetched: 2026-11-19T20:12:33+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

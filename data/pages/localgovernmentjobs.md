@@ -1,6 +1,6 @@
 # localgovernmentjobs.ie vacancies
 URL: https://www.localgovernmentjobs.ie/Search/Vacancies
-Fetched: 2026-11-19T20:04:55+00:00
+Fetched: 2026-11-19T20:12:13+00:00
 Status: ok (HTTP 200), pages read: 5
 
 ## Job-like links

@@ -1,11 +1,7 @@
 # HSE jobs - Cork
 URL: https://about.hse.ie/jobs/job-search/?county=Cork
-Fetched: 2026-11-19T20:00:24+00:00
-Status: error (HTTP 200), pages read: 1
-Error: TimeoutError: Locator.click: Timeout 45000ms exceeded.
-Call log:
-waiting for get_by_role("link", name=re.compile(r"^\s*(next(\s+page)?(\s*[›»>])?|[›»])\s*$", re.IGNORECASE)).first
-  -   locator resolved to <a aria-disabled="false" aria-label="Next Page" class="hse-pagination-listing__link" href="/jobs/job-search/
+Fetched: 2026-11-19T20:09:30+00:00
+Status: ok (HTTP 200), pages read: 2
 
 ## Job-like links
 - [Clinical Nurse Specialist, Children’s Neurology, Cork University Hospital CUHN100690](https://about.hse.ie/jobs/job-search/clinical-nurse-specialist-childrens-neurology-cork-university-hospital-cuhn100690/)
@@ -14,6 +10,9 @@ waiting for get_by_role("link", name=re.compile(r"^\s*(next(\s+page)?(\s*[›»>
 - [Property Manager (Technical Services Officer, NRS15551Chief Assistant)](https://about.hse.ie/jobs/job-search/property-manager-technical-services-officer-nrs15551chief-assistant/)
 - [Senior House Officer Registrar in Psychiatry with Child and Adolescent Mental Health Services, Cork and Kerry HSE South West – 4 Day week PSYCH2826](https://about.hse.ie/jobs/job-search/senior-house-officer-registrar-in-psychiatry-with-child-and-adolescent-mental-health-services-cork-and-kerry-hse-south-west-4-day-week-psych2826/)
 - [Interim Chief Information Officer NRS15698](https://about.hse.ie/jobs/job-search/interim-chief-information-officer-nrs15698/)
+- [Grade VIII, Procurement Manager, Application Service NRS15680](https://about.hse.ie/jobs/job-search/grade-viii-procurement-manager-application-service-nrs15680/)
+- [Grade VII, Assistant Procurement Manager NRS15679](https://about.hse.ie/jobs/job-search/grade-vii-assistant-procurement-manager-nrs15679/)
+- [Clinical Nurse Manager 3 Bainisteoir Altraí Cliniciúla 3 Disability Services HSE South West FSS an Iardheiscirt SWNM106027](https://about.hse.ie/jobs/job-search/clinical-nurse-manager-3-bainisteoir-altrai-cliniciula-3-disability-services-hse-south-west-fss-an-iardheiscirt-swnm106027/)
 
 ## Page text
 --- page 1: https://about.hse.ie/jobs/job-search/?county=Cork ---
@@ -125,6 +124,130 @@ Category: Health and Social Care Professionals
 County: Cork
 
 Date posted: 10 November 2026
+:
+Previous
+Page
+1
+Page
+2
+Next
+HSE Live - we're here to help
+
+Monday to Friday: 8am to 8pm
+Saturday: 9am to 5pm
+Sunday: Closed
+Bank holidays: Closed
+
+Freephone: 1800 700 700
+
+From outside Ireland: 00 353 1 240 8787
+
+HSE Facebook
+
+HSE Instagram
+
+HSE TikTok
+
+HSE YouTube
+
+HSE Linkedin
+
+Complaints and feedback
+
+Emergencies
+
+Cookies settings
+
+Support links
+Privacy statement
+Disclaimer
+Cookie statement
+Accessibility
+
+© Health Service Executive
+
+We use strictly necessary cookies to make our site work. We would also like to set optional cookies (analytical, functional and YouTube) to enhance and improve our service. You can opt-out of these cookies. By clicking “Accept All Cookies” you can agree to the use of all cookies. Cookie Statement and Privacy Statement
+Manage Cookies
+Necessary Cookies Only
+Accept All Cookies
+
+--- page 2: https://about.hse.ie/jobs/job-search/?page=2&county=Cork ---
+Skip to main content
+HSE Staff
+HSE.ie
+HSE Account
+Jobs
+Our work
+Organisation
+News
+Publications
+Leadership and operations
+HomeJobs
+Jobs
+Search jobs
+By keyword or reference code
+Search jobs
+Category
+Advertisement Type
+Grade
+County
+Contract type
+Health Region
+Reset results
+Showing 11 to 16 of 16 results
+
+In:
+
+Cork
+Grade VIII, Procurement Manager, Application Service NRS15680
+
+Category: Management/Admin/ICT
+
+County: Waterford, Tipperary, Sligo, Offaly, Mayo, Louth, Kildare, Kerry, Dublin, Cork, Kilkenny
+
+Date posted: 10 November 2026
+:
+Grade VII, Assistant Procurement Manager NRS15679
+
+Advertisement Type: Internal and Confined competition
+
+Category: Management/Admin/ICT
+
+County: Waterford, Tipperary, Sligo, Offaly, Mayo, Louth, Kildare, Kerry, Dublin, Cork, Kilkenny, All
+
+Date posted: 10 November 2026
+:
+Corlann South Disability Staff Grade Physiotherapist CORL106207
+
+Category: Health and Social Care Professionals
+
+County: Cork
+
+Date posted: 6 November 2026
+:
+Clinical Nurse Manager 3 Bainisteoir Altraí Cliniciúla 3 Disability Services HSE South West FSS an Iardheiscirt SWNM106027
+
+Category: Nursing and Midwifery
+
+County: Cork
+
+Date posted: 6 November 2026
+:
+Nursing and Midwifery Staff Bank, HSE Southwest SBNMSW1 - Amended
+
+Category: Nursing and Midwifery
+
+County: Kerry, Cork
+
+Date posted: 18 September 2026
+:
+Staff Bank Healthcare Assistant, HSE South West STAFFBANK1
+
+Category: Patient and Client Care
+
+County: Kerry, Cork
+
+Date posted: 17 September 2026
 :
 Previous
 Page

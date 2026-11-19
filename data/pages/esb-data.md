@@ -1,6 +1,6 @@
 # ESB careers - data
 URL: https://careers.esb.ie/search/?q=data
-Fetched: 2026-11-19T20:06:33+00:00
+Fetched: 2026-11-19T20:13:48+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links

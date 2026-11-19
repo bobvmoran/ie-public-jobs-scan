@@ -1,6 +1,6 @@
 # ComReg careers
 URL: https://www.comreg.ie/about/careers/
-Fetched: 2026-11-19T20:06:06+00:00
+Fetched: 2026-11-19T20:13:22+00:00
 Status: ok (HTTP 307), pages read: 1
 
 ## Job-like links

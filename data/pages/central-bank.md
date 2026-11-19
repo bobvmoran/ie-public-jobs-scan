@@ -1,6 +1,6 @@
 # Central Bank current vacancies
 URL: https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=YUYF&sid=BDCXCX&a=1bqO7eBaJhQ%3d
-Fetched: 2026-11-19T20:05:34+00:00
+Fetched: 2026-11-19T20:12:50+00:00
 Status: ok (HTTP 200), pages read: 1
 
 ## Job-like links
