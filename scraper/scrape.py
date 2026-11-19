@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data"
 PAGES = OUT / "pages"
 
-MAX_TEXT = 30_000          # characters of page text kept per page
+MAX_TEXT = 30_000          # characters of text kept per result page
 PAUSE_SECONDS = 4          # pause between page loads, to browse at a normal pace
 NAV_TIMEOUT_MS = 45_000
 
@@ -40,32 +40,58 @@ BLOCK_SIGNS = re.compile(
     r"request unsuccessful|attention required|please enable cookies|unusual traffic)",
     re.I,
 )
-NEXT_LABELS = ("Next", "Next page", "next ›", "›", "»")
+NEXT_RE = re.compile(r"^\s*(next(\s+page)?(\s*[›»>])?|[›»])\s*$", re.I)
+
+
+# Page text without the search-filter clutter: drop-down options and long
+# tick-box lists (the HSE search has ~960) otherwise fill the page before the
+# job listings start. Elements are hidden only while the text is read.
+TEXT_JS = """() => {
+  if (!document.body) return '';
+  const hidden = [];
+  const hide = el => { hidden.push([el, el.style.display]); el.style.display = 'none'; };
+  document.querySelectorAll('select').forEach(hide);
+  const ticks = document.querySelectorAll('input[type=checkbox], input[type=radio]');
+  if (ticks.length > 15) ticks.forEach(i => (i.labels || []).forEach(hide));
+  const text = document.body.innerText || '';
+  hidden.forEach(([el, d]) => { el.style.display = d; });
+  return text;
+}"""
 
 
 def page_payload(page):
-    text = page.evaluate("() => document.body ? document.body.innerText : ''") or ""
+    text = page.evaluate(TEXT_JS) or ""
     links = page.evaluate(
         """() => Array.from(document.querySelectorAll('a[href]')).map(a => ({
-              text: (a.innerText || a.getAttribute('aria-label') || '').trim().replace(/\\s+/g, ' '),
+              text: (a.innerText || a.getAttribute('aria-label') || '').trim(),
               href: a.href }))"""
     )
     seen, keep = set(), []
     for link in links:
-        t, h = link["text"], link["href"]
-        if not t or len(t) > 200 or h in seen or h.startswith(("javascript:", "mailto:", "tel:")):
+        h = link["href"]
+        lines = [" ".join(ln.split()) for ln in link["text"].splitlines() if ln.strip()]
+        if not lines or h in seen or h.startswith(("javascript:", "mailto:", "tel:")):
             continue
+        t = " ".join(lines)
+        if len(t) > 200:          # a whole job card wrapped in one link: keep its heading
+            t = lines[0][:200]
         if KEYWORDS.search(t):
             seen.add(h)
             keep.append({"text": t, "href": h})
     return re.sub(r"\n{3,}", "\n\n", text).strip(), keep
 
 
-def click_next(page):
-    for label in NEXT_LABELS:
-        loc = page.get_by_role("link", name=label, exact=True)
-        if loc.count() and loc.first.is_visible():
-            loc.first.click()
+def click_next(page, next_number):
+    """Click the pager's Next link, or failing that the link for the next page number."""
+    for loc in (page.get_by_role("link", name=NEXT_RE),
+                page.get_by_role("link", name=str(next_number), exact=True)):
+        for i in range(min(loc.count(), 5)):
+            el = loc.nth(i)
+            if not el.is_visible():
+                continue
+            if el.get_attribute("aria-disabled") == "true" or "disabled" in (el.get_attribute("class") or ""):
+                continue
+            el.click()
             return True
     return False
 
@@ -79,7 +105,7 @@ def scan_source(browser, src):
     ctx = browser.new_context(locale="en-IE", timezone_id="Europe/Dublin")
     page = ctx.new_page()
     page.set_default_timeout(NAV_TIMEOUT_MS)
-    texts, links = [], []
+    texts, links, last_text = [], [], None
     try:
         resp = page.goto(src["url"], wait_until="domcontentloaded")
         result["http_status"] = resp.status if resp else None
@@ -89,14 +115,22 @@ def scan_source(browser, src):
             except PWTimeout:
                 pass  # some sites keep polling; take what has rendered
             text, found = page_payload(page)
-            if BLOCK_SIGNS.search(text[:3000]) or (result["http_status"] or 200) in (401, 403, 429):
+            status = result["http_status"] or 200
+            if BLOCK_SIGNS.search(text[:3000]) or status in (401, 403, 429):
                 result["status"] = "blocked"
                 break
-            texts.append(f"--- page {n + 1}: {page.url} ---\n{text}")
+            if status >= 400:
+                result["status"] = "error"
+                result["error"] = f"HTTP {status} (page not found or server error)"
+                break
+            if texts and text == last_text:
+                break  # the pager did not move on; stop rather than save a repeat
+            last_text = text
+            texts.append(f"--- page {n + 1}: {page.url} ---\n{text[:MAX_TEXT]}")
             links.extend(found)
             result["pages_read"] = n + 1
             if n + 1 < src.get("pages", 1):
-                if not click_next(page):
+                if not click_next(page, n + 2):
                     break
                 time.sleep(PAUSE_SECONDS)
     except Exception as exc:  # record and move on
@@ -105,7 +139,7 @@ def scan_source(browser, src):
     finally:
         ctx.close()
 
-    body = "\n\n".join(texts)[:MAX_TEXT]
+    body = "\n\n".join(texts)
     dedup = list({l["href"]: l for l in links}.values())
     result["links_found"], result["chars"] = len(dedup), len(body)
     if result["status"] == "ok" and len(body) < 200:

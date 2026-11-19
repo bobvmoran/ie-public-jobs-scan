@@ -58,7 +58,7 @@ SOURCES = [
     {"slug": "analytics-institute", "name": "Analytics Institute job board",
      "url": "https://analyticsinstitute.org/resources/job-listing.html"},
     {"slug": "jobs-ac-uk-ireland", "name": "jobs.ac.uk - Ireland",
-     "url": "https://www.jobs.ac.uk/categories/ireland-jobs/1"},
+     "url": "https://www.jobs.ac.uk/categories/ireland-jobs/1", "pages": 3},
 
     # --- Local government ---
     {"slug": "localgovernmentjobs", "name": "localgovernmentjobs.ie vacancies",
@@ -78,7 +78,9 @@ SOURCES = [
     {"slug": "cso", "name": "CSO vacancies",
      "url": "https://www.cso.ie/en/aboutus/careers/ourvacancies/"},
     {"slug": "central-bank", "name": "Central Bank current vacancies",
-     "url": "https://www.centralbank.ie/careers/current-vacancies"},
+     # centralbank.ie/careers/current-vacancies only shows a "you are leaving this
+     # site" notice; this is the public vacancy board it sends visitors to.
+     "url": "https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=YUYF&sid=BDCXCX&a=1bqO7eBaJhQ%3d"},
     {"slug": "cib", "name": "Citizens Information Board vacancies",
      "url": "https://www.citizensinformationboard.ie/en/news/vacancies.html"},
     {"slug": "crr", "name": "Commission for Railway Regulation careers",
